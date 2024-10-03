@@ -1,0 +1,82 @@
+/* style.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h2, h5 {
+    font-weight: bold;
+}
+
+a {
+    color: #007bff; /* Bootstrap's blue color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* About Me Section */
+#about {
+    background-color: #fff;
+}
+
+.img-fluid.rounded-circle {
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+}
+
+/* Projects Section */
+#projects {
+    background-color: #f8f9fa; /* Bootstrap's light gray */
+}
+
+.card {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 200px; /* Adjust as needed */
+    object-fit: cover;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.fab {
+    font-size: 1.2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .img-fluid.rounded-circle {
+        width: 150px; /* Adjust as needed */
+        height: 150px; /* Adjust as needed */
+    }
+
+    .card-img-top {
+        height: 150px; /* Adjust as needed */
+    }
+}
